@@ -207,6 +207,18 @@ body {
   font-size: 12px;
   color: #aaa;
 }
+.footer-content a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.footer-content a:hover {
+  color: var(--accent-2);
+}
+.footer-content strong {
+  color: var(--accent-2);
+}
 
 /* Responsivo */
 @media (max-width: 900px) {
