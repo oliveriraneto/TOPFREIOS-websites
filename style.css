@@ -61,7 +61,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .logo img {
-  width: 130%;
+  width: 100%;
   height: auto;
   object-fit: contain;
   display:block;
@@ -332,5 +332,43 @@ body {
   .gallery { grid-template-columns: 1fr; }
   .card img { height: 220px; }
   .hero { padding: 18px; }
+  .carousel { height: 280px; }
+}
+
+/* Ajuste da imagem em "Sobre Nós" */
+.brand-text img {
+  width: 100%;
+  max-width: 400px; /* controla o tamanho máximo */
+  height: auto;
+  border-radius: 12px; /* cantos arredondados */
+  margin: 16px auto; /* centraliza e dá espaçamento */
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* sombra suave */
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .hero { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 560px) {
+  body { padding: 18px; }
+  .logo { width: 120px; height: 120px; }
+  .gallery { grid-template-columns: 1fr; }
+  .card img { height: 220px; }
+  .hero { 
+    padding: 18px; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .brand, 
+  .brand-text, 
+  .desc { 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+  }
   .carousel { height: 280px; }
 }
