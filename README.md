@@ -1,150 +1,81 @@
-# TOPFREIOS Websites
+# 🚀 TOPFREIOS Websites
 
-![Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Last Commit](https://img.shields.io/github/last-commit/SEU_USUARIO/TOPFREIOS-websites)
-
-> Repositório oficial do(s) site(s) da **TOPFREIOS**. Projeto focado em performance, acessibilidade, SEO e facilidade de manutenção.
+Repositório oficial para o desenvolvimento dos sites da **TOPFREIOS**.  
+Projeto simples, mas focado em entregar **qualidade**, **rapidez** e uma experiência moderna para os clientes.
 
 ---
 
-## 📌 Sumário
+## 📌 Sobre o Projeto
 
-* [Visão Geral](#-visão-geral)
-* [Demonstração](#-demonstração)
-* [Arquitetura e Pastas](#-arquitetura-e-pastas)
-* [Tecnologias](#-tecnologias)
-* [Pré-requisitos](#-pré-requisitos)
-* [Como rodar localmente](#-como-rodar-localmente)
-* [Scripts NPM](#-scripts-npm)
-* [Variáveis de Ambiente](#-variáveis-de-ambiente)
-* [Qualidade de Código](#-qualidade-de-código)
-* [Testes](#-testes)
-* [CI/CD](#-cicd)
-* [Deploy](#-deploy)
-* [Acessibilidade & SEO](#-acessibilidade--seo)
-* [Roadmap](#-roadmap)
-* [Contribuição](#-contribuição)
-* [Changelog](#-changelog)
-* [Licença](#-licença)
-* [Contato](#-contato)
+A ideia aqui é criar e manter as páginas da TOPFREIOS de forma clara e acessível, priorizando:
+
+- 🔧 **Facilidade de manutenção**
+- ⚡ **Performance**
+- 📱 **Responsividade (mobile-first)**
+- 🎨 **Design limpo**
 
 ---
 
-## 🎯 Visão Geral
+## 📂 Estrutura do Projeto
 
-Site institucional (e/ou landing pages) da **TOPFREIOS**, com ênfase em:
-
-* **Velocidade** (Core Web Vitals)
-* **Acessibilidade** (WCAG 2.1 AA)
-* **SEO** (metadados, sitemap, schema.org)
-* **Responsividade** (mobile-first)
-* **Escalabilidade** (arquitetura modular)
-
-> Este README serve como documentação profissional para devs e stakeholders.
-
----
-
-## 🖥️ Demonstração
-
-* **Produção**: *adicione o link aqui*
-* **Homologação**: *adicione o link aqui*
-* **Protótipo/Figma**: *adicione o link aqui*
-
-*Screenshots (exemplos):*
-
-| Home (Desktop)                                  | Home (Mobile)                                 |
-| ----------------------------------------------- | --------------------------------------------- |
-| ![Desktop](./docs/screenshots/home-desktop.png) | ![Mobile](./docs/screenshots/home-mobile.png) |
-
----
-
-## 🧱 Arquitetura e Pastas
-
-```
 TOPFREIOS-websites/
-├─ public/                # Assets públicos (imagens, ícones, favicon, robots.txt)
-├─ src/
-│  ├─ assets/             # Fonts, imagens otimizadas
-│  ├─ components/         # Componentes reutilizáveis (Header, Footer, etc.)
-│  ├─ pages/              # Páginas (Home, Serviços, Contato, …)
-│  ├─ layouts/            # Layouts padrão
-│  ├─ styles/             # CSS/Tailwind/SCSS
-│  ├─ lib/                # Utils, helpers, hooks
-│  ├─ data/               # Conteúdos estáticos (JSON/YAML)
-│  └─ main.tsx/js         # Ponto de entrada
-├─ docs/                  # Documentação, screenshots, diagramas
-├─ tests/                 # Testes unitários/integração
-├─ .editorconfig
-├─ .eslintrc.cjs
-├─ .prettierrc
-├─ package.json
-└─ README.md
-```
-
-> **Observação**: Estrutura pensada para aplicações SPA/SSG (Vite/Next). Para site 100% estático (HTML/CSS/JS puros), ajuste conforme necessário.
-
----
-
-## 🧰 Tecnologias
-
-* **Framework/Build**: Vite ou Next.js (SSG/ISR)
-* **Linguagem**: TypeScript ou JavaScript
-* **Estilos**: Tailwind CSS (ou SCSS)
-* **Ícones**: Lucide/Phosphor
-* **Lint/Format**: ESLint + Prettier + EditorConfig
-* **Testes**: Vitest/Jest + Testing Library
-* **Acessibilidade**: axe-core/lighthouse (auditorias)
-
-> Se o projeto for somente HTML/CSS/JS, mantenha as seções relevantes e remova as não utilizadas.
-
----
-
-## ✅ Pré-requisitos
-
-* **Node.js** ≥ 18
-* **npm** ≥ 9 (ou **pnpm**/**yarn**)
-
----
-
-## ▶️ Como rodar localmente
-
-### Opção A — Projeto com Vite (recomendado)
-
-```bash
-# 1) Instalar dependências
-npm install
-
-# 2) Rodar em desenvolvimento
-npm run dev
-
-# 3) Build de produção
-npm run build
-
-# 4) Pré-visualização do build
-npm run preview
-```
-
-### Opção B — Site estático puro
-
-Abra o arquivo `index.html` com uma extensão como **Live Server** no VS Code ou sirva com:
-
-```bash
-npx serve .
-```
-
----
-
-## 📜 Scripts NPM
-
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "test":
-```
+│
+├── 📁 public/                 # Arquivos públicos e estáticos
+│   ├── 📁 images/            # Imagens do projeto
+│   │   ├── 🖼️ logo.png       # Logo da TOPFREIOS
+│   │   ├── 🖼️ favicon.ico    # Favicon do site
+│   │   ├── 🖼️ hero-banner.jpg # Banner principal
+│   │   └── 🖼️ products/      # Pasta de imagens de produtos
+│   │
+│   ├── 📁 icons/             # Ícones e SVG
+│   │   ├── 🔶 menu-icon.svg
+│   │   ├── 🔶 whatsapp.svg
+│   │   └── 🔶 social-media/  # Ícones de redes sociais
+│   │
+│   └── 📁 docs/              # Documentos
+│       ├── 📄 catalog.pdf    # Catálogo de produtos
+│       └── 📄 warranty.pdf   # Termos de garantia
+│
+├── 📁 src/                   # Código fonte principal
+│   ├── 📁 pages/             # Páginas do site
+│   │   ├── 🧩 home.html      # Página inicial
+│   │   ├── 🧩 about.html     # Página sobre
+│   │   ├── 🧩 products.html  # Página de produtos
+│   │   ├── 🧩 services.html  # Página de serviços
+│   │   └── 🧩 contact.html   # Página de contato
+│   │
+│   ├── 📁 styles/            # Estilos
+│   │   ├── 🎨 main.css       # Estilos principais
+│   │   ├── 🎨 variables.css  # Variáveis CSS
+│   │   ├── 🎨 components.css # Estilos de componentes
+│   │   └── 🎨 responsive.css # Media queries
+│   │
+│   ├── 📁 components/        # Componentes reutilizáveis
+│   │   ├── 🔧 header.html    # Cabeçalho
+│   │   ├── 🔧 footer.html    # Rodapé
+│   │   ├── 🔧 navbar.html    # Navegação
+│   │   ├── 🔧 product-card.html # Card de produto
+│   │   └── 🔧 contact-form.html # Formulário de contato
+│   │
+│   ├── 📁 scripts/           # JavaScript
+│   │   ├── ⚙️ main.js        # Script principal
+│   │   ├── ⚙️ menu.js        # Controle do menu mobile
+│   │   ├── ⚙️ slider.js      # Slider de produtos
+│   │   ├── ⚙️ form-validation.js # Validação de formulários
+│   │   └── ⚙️ animations.js  # Animações
+│   │
+│   └── 📁 utils/             # Utilitários
+│       ├── 🔨 helpers.js     # Funções auxiliares
+│       ├── 🔨 constants.js   # Constantes do projeto
+│       └── 🔨 api.js         # Integrações com API (se houver)
+│
+├── 🌐 index.html             # Página principal
+├── ℹ️ about.html             # Página sobre
+├── 📞 contact.html           # Página de contato
+├── 📦 products.html          # Página de produtos
+├── 🛠️ services.html          # Página de serviços
+│
+├── 📖 README.md              # Documentação do projeto
+├── 📄 LICENSE                # Licença MIT
+├── 🔧 .gitignore            # Arquivos ignorados pelo Git
+└── 🛠️ package.json          # Dependências (se usar Node.js)
