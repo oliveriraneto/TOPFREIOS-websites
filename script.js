@@ -50,4 +50,3 @@ nextBtn.addEventListener("click", () => {
   currentIndex = (currentIndex === items.length - 1) ? 0 : currentIndex + 1;
   updateCarousel();
 });
-

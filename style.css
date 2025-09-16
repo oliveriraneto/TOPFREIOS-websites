@@ -322,36 +322,53 @@ body {
   color: var(--accent-2);
 }
 
-/* Responsivo */
-@media (max-width: 900px) {
-  .hero { flex-direction: column; align-items: flex-start; }
+/* Vídeo Merchan */
+.video-merchan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(20,20,20,0.06);
+  text-align: center;
+  margin: 40px 0;
 }
-@media (max-width: 560px) {
-  body { padding: 18px; }
-  .logo { width: 120px; height: 120px; }
-  .gallery { grid-template-columns: 1fr; }
-  .card img { height: 220px; }
-  .hero { padding: 18px; }
-  .carousel { height: 280px; }
+.video-merchan h2 {
+  font-size: 22px;
+  color: var(--accent-2);
+  margin-bottom: 12px;
+}
+.video-merchan .video-wrapper {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.video-merchan video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Ajuste da imagem em "Sobre Nós" */
 .brand-text img {
   width: 100%;
-  max-width: 400px; /* controla o tamanho máximo */
+  max-width: 400px;
   height: auto;
-  border-radius: 12px; /* cantos arredondados */
-  margin: 16px auto; /* centraliza e dá espaçamento */
+  border-radius: 12px;
+  margin: 16px auto;
   display: block;
   object-fit: cover;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* sombra suave */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
 /* Responsivo */
 @media (max-width: 900px) {
   .hero { flex-direction: column; align-items: flex-start; }
 }
-
 @media (max-width: 560px) {
   body { padding: 18px; }
   .logo { width: 120px; height: 120px; }
