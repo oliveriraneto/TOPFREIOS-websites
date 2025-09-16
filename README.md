@@ -126,7 +126,7 @@ Entre em contato com a **TOPFREIOS** através dos canais oficiais:
 - 📧 **E-mail:** [contato@topfreios.com](mailto:contato@topfreios.com)
 - 📱 **WhatsApp:** [(67) 99631-7221](https://wa.me/5567996317221)
 - 🌐 **Instagram:** [@topfreios_](https://www.instagram.com/topfreios_)
-- 🔗 **Site oficial:** [www.topfreios.com](https://www.topfreios.com)
+- 🔗 **Site oficial:** [www.topfreios.com](https://oliveriraneto.github.io/TOPFREIOS-websites/#contato)
 - 🏠 **Endereço:** Rua Padre João Delfino, 620 - Itamaracá, Campo Grande - MS
 
 **Horário de Funcionamento:**
