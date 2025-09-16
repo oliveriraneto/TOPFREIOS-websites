@@ -18,64 +18,90 @@ A ideia aqui é criar e manter as páginas da TOPFREIOS de forma clara e acessí
 
 ## 📂 Estrutura do Projeto
 
+```
+
 TOPFREIOS-websites/
-│
-├── 📁 public/                 # Arquivos públicos e estáticos
-│   ├── 📁 images/            # Imagens do projeto
-│   │   ├── 🖼️ logo.png       # Logo da TOPFREIOS
-│   │   ├── 🖼️ favicon.ico    # Favicon do site
-│   │   ├── 🖼️ hero-banner.jpg # Banner principal
-│   │   └── 🖼️ products/      # Pasta de imagens de produtos
-│   │
-│   ├── 📁 icons/             # Ícones e SVG
-│   │   ├── 🔶 menu-icon.svg
-│   │   ├── 🔶 whatsapp.svg
-│   │   └── 🔶 social-media/  # Ícones de redes sociais
-│   │
-│   └── 📁 docs/              # Documentos
-│       ├── 📄 catalog.pdf    # Catálogo de produtos
-│       └── 📄 warranty.pdf   # Termos de garantia
-│
-├── 📁 src/                   # Código fonte principal
-│   ├── 📁 pages/             # Páginas do site
-│   │   ├── 🧩 home.html      # Página inicial
-│   │   ├── 🧩 about.html     # Página sobre
-│   │   ├── 🧩 products.html  # Página de produtos
-│   │   ├── 🧩 services.html  # Página de serviços
-│   │   └── 🧩 contact.html   # Página de contato
-│   │
-│   ├── 📁 styles/            # Estilos
-│   │   ├── 🎨 main.css       # Estilos principais
-│   │   ├── 🎨 variables.css  # Variáveis CSS
-│   │   ├── 🎨 components.css # Estilos de componentes
-│   │   └── 🎨 responsive.css # Media queries
-│   │
-│   ├── 📁 components/        # Componentes reutilizáveis
-│   │   ├── 🔧 header.html    # Cabeçalho
-│   │   ├── 🔧 footer.html    # Rodapé
-│   │   ├── 🔧 navbar.html    # Navegação
-│   │   ├── 🔧 product-card.html # Card de produto
-│   │   └── 🔧 contact-form.html # Formulário de contato
-│   │
-│   ├── 📁 scripts/           # JavaScript
-│   │   ├── ⚙️ main.js        # Script principal
-│   │   ├── ⚙️ menu.js        # Controle do menu mobile
-│   │   ├── ⚙️ slider.js      # Slider de produtos
-│   │   ├── ⚙️ form-validation.js # Validação de formulários
-│   │   └── ⚙️ animations.js  # Animações
-│   │
-│   └── 📁 utils/             # Utilitários
-│       ├── 🔨 helpers.js     # Funções auxiliares
-│       ├── 🔨 constants.js   # Constantes do projeto
-│       └── 🔨 api.js         # Integrações com API (se houver)
-│
-├── 🌐 index.html             # Página principal
-├── ℹ️ about.html             # Página sobre
-├── 📞 contact.html           # Página de contato
-├── 📦 products.html          # Página de produtos
-├── 🛠️ services.html          # Página de serviços
-│
-├── 📖 README.md              # Documentação do projeto
-├── 📄 LICENSE                # Licença MIT
-├── 🔧 .gitignore            # Arquivos ignorados pelo Git
-└── 🛠️ package.json          # Dependências (se usar Node.js)
+├── public/ # Imagens e arquivos públicos
+├── src/ # Código fonte
+│ ├── pages/ # Páginas (Home, Contato, etc.)
+│ ├── styles/ # Estilos (CSS/Tailwind)
+│ └── components/ # Componentes reutilizáveis
+└── README.md
+
+```
+
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** - Estrutura semântica das páginas
+- **CSS3** - Estilização e animações
+- **JavaScript** - Interatividade e funcionalidades
+- **GitHub Pages** - Hospedagem e deploy
+
+---
+
+## 🚀 Como Executar Localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/oliveriraneto/TOPFREIOS-websites.git
+
+# 2. Acesse a pasta do projeto
+cd TOPFREIOS-websites
+
+# 3. Execute um servidor local (escolha uma opção):
+
+# Opção 1 - Python:
+python -m http.server 8000
+
+# Opção 2 - Node.js (se tiver npm instalado):
+npx serve
+
+# Opção 3 - PHP:
+php -S localhost:8000
+
+# Opção 4 - Live Server (extensão do VS Code):
+Instale a extensão "Live Server" e clique em "Go Live"
+
+# Após executar qualquer opção, acesse:
+http://localhost:8000
+```
+
+## 📦 Deploy
+
+O site está hospedado gratuitamente no **GitHub Pages**.
+
+🌐 **Acesse aqui:** [TOPFREIOS](https://oliveriraneto.github.io/TOPFREIOS-websites/)
+
+### 🔄 Atualizando o site
+
+Para publicar suas alterações:
+
+```
+# Adicione os arquivos modificados
+git add .
+
+# Faça o commit com uma mensagem clara
+git commit -m "Atualização do site"
+
+# Envie para o GitHub
+git push origin main
+```
+
+## 📞 Contato e Suporte
+
+Entre em contato com a **TOPFREIOS** através dos canais oficiais:
+
+- 📧 **E-mail:** [contato@topfreios.com](mailto:contato@topfreios.com)  
+- 📱 **WhatsApp:** [(67) 99631-7221](https://wa.me/5567996317221)  
+- 🌐 **Instagram:** [@topfreios_](https://www.instagram.com/topfreios_)  
+- 🔗 **Site oficial:** [www.topfreios.com](https://www.topfreios.com)  
+- 🏠 **Endereço:** Rua Padre João Delfino, 620 - Itamaracá, Campo Grande - MS  
+
+**Horário de Funcionamento:**  
+- Seg a Sex: 07:30 - 11:30 | 13:00 - 17:30  
+- Sáb: 07:30 - 11:30  
+
+Para questões técnicas sobre este projeto, abra uma **[issue no GitHub](https://github.com/oliveriraneto/TOPFREIOS-websites/issues)**.
