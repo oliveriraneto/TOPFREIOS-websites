@@ -102,13 +102,13 @@ git push origin main
     </td>
     <td align="center">
       <a href="https://github.com/oliveriraneto">
-        <img src="https://avatars.githubusercontent.png" width="100px;" alt="Antonio Neto"/><br />
+        <img src="https://github.com/oliveriraneto.png" width="100px;" alt="Antonio Neto"/><br />
         <sub><b>Antonio Neto</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/JorgeLuiss82">
-        <img src="https://avatars.githubusercontent.png" width="100px;" alt="Jorge Luís"/><br />
+        <img src="https://github.com/JorgeLuiss82.png" width="100px;" alt="Jorge Luís"/><br />
         <sub><b>Jorge Luís</b></sub>
       </a>
     </td>
