@@ -90,18 +90,48 @@ git commit -m "Atualização do site"
 git push origin main
 ```
 
+## 👨‍💻 Desenvolvedores
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/carloseduardo-rocha">
+        <img src="https://avatars.githubusercontent.com/u/120024748?v=4" width="100px;" alt="Cadu Rocha"/><br />
+        <sub><b>Cadu Rocha</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/oliveriraneto">
+        <img src="https://avatars.githubusercontent.com/u/35596990?v=4" width="100px;" alt="Antonio Neto"/><br />
+        <sub><b>Antonio Neto</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JorgeLuiss82">
+        <img src="https://avatars.githubusercontent.com/u/56296553?v=4" width="100px;" alt="Jorge Luís"/><br />
+        <sub><b>Jorge Luís</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+Para **questões técnicas ou dúvidas sobre a produção do projeto**, entre em contato diretamente com os desenvolvedores acima.
+
+---
+
 ## 📞 Contato e Suporte
 
 Entre em contato com a **TOPFREIOS** através dos canais oficiais:
 
-- 📧 **E-mail:** [contato@topfreios.com](mailto:contato@topfreios.com)  
-- 📱 **WhatsApp:** [(67) 99631-7221](https://wa.me/5567996317221)  
-- 🌐 **Instagram:** [@topfreios_](https://www.instagram.com/topfreios_)  
-- 🔗 **Site oficial:** [www.topfreios.com](https://www.topfreios.com)  
-- 🏠 **Endereço:** Rua Padre João Delfino, 620 - Itamaracá, Campo Grande - MS  
+- 📧 **E-mail:** [contato@topfreios.com](mailto:contato@topfreios.com)
+- 📱 **WhatsApp:** [(67) 99631-7221](https://wa.me/5567996317221)
+- 🌐 **Instagram:** [@topfreios_](https://www.instagram.com/topfreios_)
+- 🔗 **Site oficial:** [www.topfreios.com](https://www.topfreios.com)
+- 🏠 **Endereço:** Rua Padre João Delfino, 620 - Itamaracá, Campo Grande - MS
 
-**Horário de Funcionamento:**  
-- Seg a Sex: 07:30 - 11:30 | 13:00 - 17:30  
-- Sáb: 07:30 - 11:30  
+**Horário de Funcionamento:**
+- Seg a Sex: 07:30 - 11:30 | 13:00 - 17:30
+- Sáb: 07:30 - 11:30
 
 Para questões técnicas sobre este projeto, abra uma **[issue no GitHub](https://github.com/oliveriraneto/TOPFREIOS-websites/issues)**.
+
