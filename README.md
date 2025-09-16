@@ -96,19 +96,19 @@ git push origin main
   <tr>
     <td align="center">
       <a href="https://github.com/carloseduardo-rocha">
-        <img src="https://avatars.githubusercontent.com/u/120024748?v=4" width="100px;" alt="Cadu Rocha"/><br />
+        <img src="https://avatars.githubusercontent.com/u/154270394?v=4" width="100px;" alt="Cadu Rocha"/><br />
         <sub><b>Cadu Rocha</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/oliveriraneto">
-        <img src="https://avatars.githubusercontent.com/u/35596990?v=4" width="100px;" alt="Antonio Neto"/><br />
+        <img src="https://avatars.githubusercontent.png" width="100px;" alt="Antonio Neto"/><br />
         <sub><b>Antonio Neto</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/JorgeLuiss82">
-        <img src="https://avatars.githubusercontent.com/u/56296553?v=4" width="100px;" alt="Jorge Luís"/><br />
+        <img src="https://avatars.githubusercontent.png" width="100px;" alt="Jorge Luís"/><br />
         <sub><b>Jorge Luís</b></sub>
       </a>
     </td>
