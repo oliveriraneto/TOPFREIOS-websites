@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Top Freios — Peças e serviços de freios a ar para caminhões.">
   <title>Top Freios — Caminhões</title>
 
   <!-- Fonte -->
@@ -12,7 +13,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrap" role="main">
+
+  <main class="wrap" role="main">
 
     <!-- Hero principal -->
     <header class="hero" aria-label="Topo do site - Top Freios">
@@ -20,21 +22,22 @@
         <div class="logo">
           <img src="assets/logo.jpeg" alt="Logo Top Freios">
         </div>
-
         <div class="brand-text">
           <h1>Top Freios</h1>
           <div class="sub">Freios a ar de Caminhões</div>
         </div>
-
-        <!-- Botões de WhatsApp -->
-        <div class="brand-actions">
-          <a href="https://wa.me/5567996054079?text=Olá,%20sou%20um%20caminhoneiro%20e%20gostaria%20de%20contatar%20o%20vendedor." target="_blank" class="top-btn">
-            💼 Vendedor
-          </a>
-          <a href="https://wa.me/5567992319928?text=Olá,%20sou%20um%20caminhoneiro%20e%20tive%20um%20problema%20com%20meus%20freios." target="_blank" class="top-btn">
-            👨‍🔧 Técnico
-          </a>
-        </div>
+        <ul class="brand-actions">
+          <li>
+            <a href="https://wa.me/5567996054079?text=Olá,%20sou%20um%20caminhoneiro%20e%20gostaria%20de%20contatar%20o%20vendedor." target="_blank" class="top-btn">
+              💼 Vendedor
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5567992319928?text=Olá,%20sou%20um%20caminhoneiro%20e%20tive%20um%20problema%20com%20meus%20freios." target="_blank" class="top-btn">
+              👨‍🔧 Técnico
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div class="desc">
@@ -49,49 +52,46 @@
         </div>
       </div>
     </header>
-    
-    <!-- Botão geral -->
+
+    <!-- Botão geral animado -->
     <div class="links">
       <a class="btn" href="#contato">
-        <span class="icon">⬇</span>
-        <span>Nossos links</span>
-        <span class="icon">⬇</span>
+        ⬇ Nossos links ⬇
       </a>
     </div>
 
     <!-- Galeria -->
     <section class="gallery" aria-label="Galeria de imagens">
-      <article class="card">
+      <article class="card" role="button">
         <a href="https://www.google.com/maps/dir//R.+Padre+Jo%C3%A3o+Delfino,+620+-+Itamarac%C3%A1,+Campo+Grande+-+MS,+79062-290/@-20.5181488,-54.6500713,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x9486ef050b1193c1:0x933be2aa30796506!2m2!1d-54.5676988!2d-20.5181442?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" 
            target="_blank">
-          <img src="assets/localização.jpeg" alt="Caminhões estacionados">
+          <img src="assets/localização.jpeg" alt="Mapa do endereço da Top Freios">
         </a>
         <div class="info">
           <div>
-            <div class="title">Localização</div>
+            <div class="card-title">Localização</div>
             <small>Pronta para atendimento rápido</small>
           </div>
           <div><small>Campo Grande - MS</small></div>
         </div>
       </article>
-      
-      <!-- Card que abre o carrossel -->
-      <article class="card open-carousel">
+
+      <article class="card open-carousel" role="button">
         <img src="assets/Peças.png" alt="Peças e componentes de freios">
         <div class="info">
           <div>
-            <div class="title">Peças e componentes</div>
+            <div class="card-title">Peças e componentes</div>
             <small>Qualidade e garantia</small>
           </div>
           <div><small>Estoque próprio</small></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" role="button">
         <img src="assets/Patio.jpeg" alt="Oficina em manutenção de caminhões">
         <div class="info">
           <div>
-            <div class="title">Oficina equipada</div>
+            <div class="card-title">Oficina equipada</div>
             <small>Atendimento e montagem técnica</small>
           </div>
           <div><small>Serviço especializado</small></div>
@@ -100,9 +100,9 @@
     </section>
 
     <!-- Modal do Carrossel -->
-    <div class="modal" id="carouselModal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
+    <div class="modal" id="carouselModal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="close" aria-label="Fechar carrossel">&times;</button>
 
         <div class="carousel">
           <div class="carousel-track">
@@ -115,32 +115,31 @@
               <a href="https://wa.me/5567996054079" target="_blank" class="btn">Ver mais peças</a>
             </div>
           </div>
-
-          <button class="prev">❮</button>
-          <button class="next">❯</button>
+          <button class="prev" aria-label="Anterior">❮</button>
+          <button class="next" aria-label="Próximo">❯</button>
         </div>
-
         <div class="carousel-dots"></div>
       </div>
     </div>
 
     <!-- Vídeo Merchan -->
-    <section class="video-merchan" aria-label="Vídeo merchan Top Freios" style="margin: 40px 0;">
+    <section class="video-merchan" aria-label="Vídeo merchan Top Freios">
       <h2>Conheça nossos serviços em ação!</h2>
-      <div class="video-wrapper">
-        <video controls poster="assets/video-poster.jpeg">
+      <figure class="video-wrapper">
+        <video controls poster="assets/video-poster.jpeg" preload="metadata">
           <source src="assets/merchan.mp4" type="video/mp4">
           Seu navegador não suporta vídeos.
         </video>
-      </div>
+        <figcaption>Vídeo demonstrando nossos serviços e atendimento.</figcaption>
+      </figure>
     </section>
 
     <!-- Sobre Nós -->
-    <section class="hero" aria-label="Sobre a Top Freios" style="margin-top:28px;">
+    <section class="hero" aria-label="Sobre a Top Freios">
       <div class="brand">
         <div class="brand-text">
-          <h1>Sobre Nós</h1>
-          <img src="assets/Equipe.jpeg" alt="">
+          <h2>Sobre Nós</h2>
+          <img src="assets/Equipe.jpeg" alt="Equipe Top Freios">
           <div class="sub">Nossa história e compromisso</div>
         </div>
       </div>
@@ -168,20 +167,20 @@
 
     <!-- Rodapé -->
     <footer id="contato" class="footer">
-      <div class="footer-content">
+      <address class="footer-content">
         <p><strong>📍 Endereço:</strong> Rua Padre João Delfino, 620 - Itamaracá, Campo Grande - MS</p>
         <p><strong>📱 Instagram:</strong> 
-          <a href="https://www.instagram.com/topfreios_/" target="_blank">@topfreios_</a>
+          <a href="https://www.instagram.com/topfreios_/" target="_blank" rel="noopener noreferrer">@topfreios_</a>
         </p>
         <p><strong>🕒 Horário de Funcionamento:</strong><br>
            Seg a Sex: 07:30 - 11:30 | 13:00 - 17:30<br>
            Sáb: 07:30 - 11:30
         </p>
-      </div>
+      </address>
       <p class="copy">© 2025 Top Freios - Todos os direitos reservados</p>
     </footer>
 
-  </div>
+  </main>
 
   <!-- JS -->
   <script src="script.js"></script>
